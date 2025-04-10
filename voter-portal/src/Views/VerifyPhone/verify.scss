@@ -1,0 +1,93 @@
+.text-div {
+  .form-div {
+    width: 100%;
+  }
+  .main-heading {
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 28px;
+    color: #393939;
+  }
+  .sub-heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #616161;
+    text-align: center;
+    .span {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 18px;
+      color: #018b61;
+    }
+  }
+  .small-heading {
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #535353;
+  }
+  .input-div {
+    width: 25%;
+  }
+  .text-input,
+  .text-input:focus {
+    text-align: center;
+    position: relative;
+    padding: 2%;
+    outline: none !important;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1450px) {
+  .text-div {
+    .input-div {
+      width: 35%;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .text-div {
+    .input-div {
+      width: 40%;
+    }
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .text-div {
+    .main-heading {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .input-div {
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .text-div {
+    .main-heading {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    .input-div {
+      width: 75%;
+    }
+  }
+}

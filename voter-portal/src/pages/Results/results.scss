@@ -1,0 +1,123 @@
+@mixin basicStyle($textColor, $textSize) {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  color: $textColor;
+  font-size: $textSize;
+}
+.card-body {
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .title {
+    @include basicStyle(#148d69, 18px);
+    line-height: 20px;
+    margin-bottom: 0.25rem !important;
+  }
+  .sub {
+    @include basicStyle(#373737, 16px);
+    line-height: 18px;
+    margin-bottom: 0.25rem !important;
+  }
+}
+.main {
+  @include basicStyle(#373737, 25px);
+  line-height: 18px;
+}
+.bg-green {
+  border: 2px solid #1f7f62;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.small-div {
+  height: 8vh;
+  padding: 3%;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border-left: 8px solid#099268;
+  .cand-name {
+    width: 50%;
+    display: inline-block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4b4b4b;
+  }
+  .cand-desc {
+    padding-top: 4%;
+    width: 30%;
+    float: right;
+  }
+  .cand-img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+  span {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    color: #1b926e;
+  }
+  .img-label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #0b0b0b;
+  }
+}
+.tabs-results {
+  width: 100%;
+  padding-left: 0%;
+  text-align: start;
+  width: 100%;
+  list-style: none !important;
+  display: inline-block !important;
+  border-bottom: 0 !important;
+  li {
+    display: inline-block;
+    width: 50%;
+    padding: 1.5%;
+    display: inline-block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+    background: #ffffff;
+    border: 1px solid #cdcdcd;
+  }
+  .selected {
+    color: white !important;
+    background-color: #1f7f62;
+    border-radius: 0 !important;
+  }
+  .react-tabs__tab--selected {
+    color: white !important;
+    background-color: #1f7f62;
+    border-radius: 0 !important;
+  }
+  .react-tabs__tab-panel {
+    width: 75%;
+  }
+  .tab-block {
+    display: inline-block;
+    width: 20px;
+  }
+}

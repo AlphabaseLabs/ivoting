@@ -1,0 +1,30 @@
+.img-div {
+  .request-heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #393939;
+  }
+  .border-dotted {
+    border-style: dotted;
+    border: 1.5px dashed #15b786;
+    width: 303px;
+height: 53px;
+
+  }
+  .cast-time {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #3f3f3f;
+  }
+}

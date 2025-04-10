@@ -1,0 +1,38 @@
+@mixin basicStyle($textColor, $textSize, $textStyle) {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  color: $textColor;
+  font-size: $textSize;
+  font-style: $textStyle;
+}
+.img-div {
+  .para-heading {
+    @include basicStyle(#393939, 24px, "normal");
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+  }
+  .form-btn {
+    @include basicStyle(white, 20px, "bold");
+    background: #1b926e;
+    border-radius: 8px;
+    border: none !important;
+    outline: none !important;
+    width: 259px;
+    height: 55px;
+    padding: 1%;
+    line-height: 24px;
+    text-align: center;
+  }
+  .white-btn {
+    @include basicStyle(#666666, 20px, "bold");
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    height: 55px;
+    padding: 1%;
+    line-height: 24px;
+    text-align: center;
+  }
+}

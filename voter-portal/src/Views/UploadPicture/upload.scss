@@ -1,0 +1,72 @@
+.bordered-div {
+  background: #ffffff;
+  border: 2px dashed #cccccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100%;
+  padding: 3%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .btn-border {
+    border: 2px solid #1b926e;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 2%;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1b926e;
+  }
+  .btn-border :focus {
+    outline: none !important;
+    border: 2px solid #1b926e;
+  }
+}
+.dummyImg {
+  width: 250px;
+  height: 150px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1450px) {
+  .bordered-div {
+    height: 50vh;
+    .dummyImg {
+      width: 200px;
+      height: 165px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .bordered-div {
+    height: 50vh;
+    .dummyImg {
+      width: 200px;
+      height: 165px;
+    }
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .bordered-div {
+    height: 50vh;
+    .dummyImg {
+      width: 200px;
+      height: 165px;
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+  .bordered-div {
+    height: 50vh;
+    .dummyImg {
+      width: 180px;
+      height: 165px;
+    }
+  }
+}

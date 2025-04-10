@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1020px) and (max-width: 1199px) {
+  .vote-cast-div .detail-div .icon {
+    padding: 21px;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1019px) {
+}
+@media only screen and (min-width: 576px) and (max-width: 766px) {
+}
+
+@media only screen and (max-width: 575px) and (max-height: 667px) {
+  .bg-green .details {
+    font-size: 9px;
+  }
+  .vote-cast-div .detail-div .form-label {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .main {
+    font-size: 20px;
+  }
+  .search-input::placeholder {
+    font-size: 13px !important;
+    padding: 2%;
+  }
+  .vote-cast-div .detail-div .icon {
+    padding: 5px;
+  }
+  .sub-div {
+    height: 12vh;
+    .cand-img {
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+    }
+  }
+}

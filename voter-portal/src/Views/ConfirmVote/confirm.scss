@@ -1,0 +1,64 @@
+.modal-heading {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #068e65;
+  text-align: center;
+}
+.modal-cancel-btn {
+  width: 100%;
+  outline: none !important;
+  border: none !important;
+  background: #343434;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  height: 8vh;
+}
+.modal-confirm-btn {
+  height: 8vh;
+  width: 100%;
+  outline: none !important;
+  border: none !important;
+  background: #0a7655;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.modal-body {
+  padding: 0% !important;
+}
+.modal-div {
+  height: 15vh;
+  padding: 3%;
+  width: 75%;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border-left: 5px solid #1b926e;
+  .cand-name {
+    width: 70%;
+    display: inline-block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #4b4b4b;
+  }
+}

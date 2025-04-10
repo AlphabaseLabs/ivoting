@@ -1,0 +1,47 @@
+.img-div {
+  .sub-heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #616161;
+  }
+  .form-btn {
+    background: #1b926e;
+    border-radius: 8px;
+    border: none !important;
+    outline: none !important;
+    color: white;
+    width: 18%;
+    padding: 1%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    .fas {
+      text-align: end;
+    }
+  }
+  .span-heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #464646;
+    span {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: #1f7f62;
+    }
+  }
+}

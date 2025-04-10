@@ -1,0 +1,34 @@
+.question-div {
+  width: 100%;
+  .form-label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #4f4f4f;
+  }
+  .text-input,
+  .text-input:focus {
+    position: relative;
+    padding: 1%;
+    outline: none !important;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .text-input::placeholder {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    color: #009769;
+  }
+}
+.req {
+  color: red;
+  font-weight: bold;
+}

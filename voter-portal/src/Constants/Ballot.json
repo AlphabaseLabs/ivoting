@@ -1,0 +1,511 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract ElectionAccessControl",
+          "name": "_accessControl",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IElection",
+          "name": "_election",
+          "type": "address"
+        },
+        {
+          "internalType": "contract Party",
+          "name": "_party",
+          "type": "address"
+        },
+        {
+          "internalType": "contract Candidate",
+          "name": "_candidate",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "voter_id",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "reason",
+          "type": "string"
+        }
+      ],
+      "name": "VoterStatusEvent",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "AccessControl",
+      "outputs": [
+        {
+          "internalType": "contract ElectionAccessControl",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "REGISTRATION_ROLE",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "_IElection",
+      "outputs": [
+        {
+          "internalType": "contract IElection",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "candidate",
+      "outputs": [
+        {
+          "internalType": "contract Candidate",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_electoral_district_id",
+          "type": "string"
+        }
+      ],
+      "name": "getAllCandidatesInElecorialDistrict",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "party_id",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "candidate_id",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "ballot_selections_object_id",
+              "type": "string"
+            },
+            {
+              "internalType": "uint256",
+              "name": "ballot_selections_sequence_order",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "electoral_district_id",
+              "type": "string"
+            },
+            {
+              "internalType": "uint256",
+              "name": "electoral_sequence_order",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "vote_variation",
+              "type": "string"
+            },
+            {
+              "internalType": "uint256",
+              "name": "votes_allowed",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bool",
+              "name": "deleated",
+              "type": "bool"
+            },
+            {
+              "internalType": "string",
+              "name": "meta",
+              "type": "string"
+            }
+          ],
+          "internalType": "struct Candidate.CandidateDetails[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "object_id",
+          "type": "string"
+        }
+      ],
+      "name": "getParty",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "object_id",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "abbreviation",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "logo_uri",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "meta",
+              "type": "string"
+            }
+          ],
+          "internalType": "struct Party.PartyDetails",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getRegisteredVoters",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_voter_id",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getVoter",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes32",
+              "name": "voter_id",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "address",
+              "name": "voterAddress",
+              "type": "address"
+            },
+            {
+              "internalType": "bytes32[]",
+              "name": "elections",
+              "type": "bytes32[]"
+            },
+            {
+              "internalType": "uint256",
+              "name": "nrOfVoters",
+              "type": "uint256"
+            },
+            {
+              "internalType": "enum Voter.VoterState",
+              "name": "state",
+              "type": "uint8"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "a",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "b",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct Voter.Cipher[]",
+              "name": "cipher",
+              "type": "tuple[]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "uint256[2]",
+                  "name": "a",
+                  "type": "uint256[2]"
+                },
+                {
+                  "internalType": "uint256[2]",
+                  "name": "b",
+                  "type": "uint256[2]"
+                },
+                {
+                  "internalType": "uint256[2]",
+                  "name": "c",
+                  "type": "uint256[2]"
+                },
+                {
+                  "internalType": "uint256[2]",
+                  "name": "f",
+                  "type": "uint256[2]"
+                }
+              ],
+              "internalType": "struct Voter.VoteProof[]",
+              "name": "voteProof",
+              "type": "tuple[]"
+            }
+          ],
+          "internalType": "struct Voter.VoterProfile",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_voter_id",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getVoterState",
+      "outputs": [
+        {
+          "internalType": "enum Voter.VoterState",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "hasVoted",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "candidate_id",
+          "type": "string"
+        }
+      ],
+      "name": "isCandidateDeleted",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "party",
+      "outputs": [
+        {
+          "internalType": "contract Party",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_voter_id",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32[]",
+          "name": "elections",
+          "type": "bytes32[]"
+        }
+      ],
+      "name": "reconfigureVoterElections",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_voter_id",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32[]",
+          "name": "elections",
+          "type": "bytes32[]"
+        }
+      ],
+      "name": "registerVoter",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "voterProfile",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "voter_id",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "voterAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "nrOfVoters",
+          "type": "uint256"
+        },
+        {
+          "internalType": "enum Voter.VoterState",
+          "name": "state",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "voters",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "voter_id",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "voterAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "nrOfVoters",
+          "type": "uint256"
+        },
+        {
+          "internalType": "enum Voter.VoterState",
+          "name": "state",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "NA-53-contest": {
+    "usman-selection": 0,
+    "salman-selection": 2,
+    "danyal-selection": 1,
+    "khuram-selection": 0,
+    "winner": {
+      "name": { "text": [{ "language": "en", "value": "Salaman Ahmed" }] },
+      "object_id": "salman",
+      "party_id": "PTI_Scissors"
+    },
+    "party": {
+      "abbreviation": "PTI",
+      "color": "AAAAAA",
+      "logo_uri": "http://some/path/to/whig.svg",
+      "name": {
+        "text": [{ "language": "en", "value": "Pakistan Tehreek-e-Insaniat" }]
+      },
+      "object_id": "PTI_Scissors"
+    }
+  },
+  "PB-1-contest": {
+    "khayam-selection": 0,
+    "zaryab-selection": 2,
+    "kamran-selection": 0,
+    "ali-selection": 1,
+    "winner": {
+      "name": { "text": [{ "language": "en", "value": "ali hussain" }] },
+      "object_id": "ali",
+      "party_id": "APMMP_Giraffe"
+    },
+    "party": {
+      "abbreviation": "APMMP",
+      "color": "AAAAAA",
+      "logo_uri": "http://some/path/to/whig.svg",
+      "name": {
+        "text": [
+          {
+            "language": "en",
+            "value": "All Pakistan Minority Movement Pakistan"
+          }
+        ]
+      },
+      "object_id": "APMMP_Giraffe"
+    }
+  }
+}
