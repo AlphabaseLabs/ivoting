@@ -1,0 +1,138 @@
+.stepper-wrapper-horizontal {
+  display: flex;
+  //   justify-content: space-between;
+
+  .step-wrapper {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .step-title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #272727;
+  }
+  .step-description {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #272727;
+  }
+  .step-number {
+    border: 1px solid #1a946f;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #1a946f;
+    width: 31px;
+    height: 31px;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+  .step-number-active {
+    background: #1a946f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    width: 31px;
+    height: 31px;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+  .divider-line {
+    height: 1px;
+    background-color: #bdbdbd;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    width: 70%;
+  }
+
+  .divider-line-2 {
+    width: 296%;
+  }
+
+  .divider-line-3 {
+    width: 125%;
+  }
+
+  .divider-line-4 {
+    width: 70%;
+  }
+
+  .divider-line-5 {
+    width: 60%;
+  }
+}
+
+.circle-text {
+  font-size: 14px !important;
+}
+.stepper-wrapper-vertical {
+  .step-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    position: relative;
+  }
+
+  .step-number {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding: 4.5px 4px 4px;
+    text-align: center;
+    font-size: 95%;
+  }
+
+  .step-description {
+    margin-left: 1.2rem;
+    padding-bottom: 3px;
+  }
+
+  .divider-line {
+    height: 17px;
+    width: 1px;
+    background-color: #bdbdbd;
+    position: absolute;
+    top: 100%;
+    left: 6.4%;
+  }
+}
+
+.step-number-selected {
+  // background: purple;
+  border: 1px solid #bdbdbd;
+  color: #fff;
+}
+
+.step-number-disabled {
+  border: 1px solid #838383;
+}
+
+.step-description-active {
+  font-weight: bold;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #1a946f !important;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #1a946f !important;
+}

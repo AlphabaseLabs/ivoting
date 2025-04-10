@@ -1,0 +1,36 @@
+.circular-stepper-container {
+  .circle-progress {
+    stroke: #1a946f !important;
+  }
+}
+.block-div {
+  display: block;
+  .left {
+    float: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1a946f;
+  }
+  .right {
+    float: right;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #4d4d4d;
+  }
+}
+.border-div {
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  border-radius: 8px;
+}

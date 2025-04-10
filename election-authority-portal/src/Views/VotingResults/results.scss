@@ -1,0 +1,117 @@
+.sub-div {
+  height: 15vh;
+  padding: 3%;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+  .cand-name {
+    width: 70%;
+    display: inline-block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #4b4b4b;
+    text-align: center;
+  }
+  .cand-desc {
+    padding-top: 4%;
+    width: 30%;
+    float: right;
+  }
+  .cand-img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+  .img-label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #0b0b0b;
+  }
+}
+.border-div {
+  .result-heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #474747;
+  }
+  .cand-tally {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #484848;
+    span {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 18px;
+      color: #079167;
+    }
+  }
+  .search-input {
+    border: 1px solid #1b926e;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100% !important;
+    height: 4vh;
+    padding: 2%;
+  }
+  .search-input::placeholder {
+    font-size: 14px;
+  }
+  .tabs-ul {
+    width: 100%;
+    ul {
+      padding-left: 0%;
+      text-align: start;
+      width: 100%;
+      list-style: none !important;
+
+      display: inline-block;
+      li {
+        width: 50%;
+        padding: 1.5%;
+        display: inline-block;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: black;
+        background: #ffffff;
+        border: 1px solid #cdcdcd;
+      }
+    }
+    .react-tabs__tab--selected {
+      border-top: white !important;
+      border-left: white !important;
+      border-right: white !important;
+      color: white;
+      background-color: #1f7f62;
+    }
+    .react-tabs__tab-panel {
+      width: 75%;
+    }
+    .tab-block {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

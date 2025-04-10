@@ -1,0 +1,61 @@
+{
+  "name": "admin-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.1",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "ethereumjs-util": "^7.1.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-beta.5",
+    "react-circular-progressbar": "^2.0.4",
+    "react-dom": "^17.0.2",
+    "react-js-circular-stepper": "^1.0.1",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "4.0.3",
+    "react-tabs": "^3.2.2",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.38.1",
+    "typescript": "^4.3.5",
+    "web-vitals": "^1.1.2",
+    "web3": "^1.3.6",
+    "zustand": "^3.5.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.8",
+    "@types/react-tabs": "^2.3.3"
+  }
+}
