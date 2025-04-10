@@ -1,0 +1,609 @@
+{
+  "manifest": {
+    "ballot_styles": [
+      {
+        "geopolitical_unit_ids": ["NA-53"],
+        "object_id": "NA"
+      }
+    ],
+    "candidates": [
+      {
+        "name": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Usman Aftab"
+            }
+          ]
+        },
+        "object_id": "usman",
+        "party_id": "PTI_Bat"
+      },
+      {
+        "name": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Salaman Ahmed"
+            }
+          ]
+        },
+        "object_id": "salman",
+        "party_id": "PTI_Scissors"
+      },
+      {
+        "name": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Danyal Ahmed"
+            }
+          ]
+        },
+        "object_id": "danyal",
+        "party_id": "PTIG_Racket"
+      },
+      {
+        "name": {
+          "text": [
+            {
+              "language": "en",
+              "value": "noman"
+            }
+          ]
+        },
+        "object_id": "noman",
+        "party_id": "PTIN_Batsman"
+      },
+      {
+        "name": {
+          "text": [
+            {
+              "language": "en",
+              "value": "khuram"
+            }
+          ]
+        },
+        "object_id": "khuram",
+        "party_id": "TJP_Laptop"
+      },
+      {
+        "name": {
+          "text": [
+            {
+              "language": "en",
+              "value": "khayam saddam"
+            }
+          ]
+        },
+        "object_id": "khayam",
+        "party_id": "AATP_Mug"
+      },
+      {
+        "name": {
+          "text": [
+            {
+              "language": "en",
+              "value": "zaryab hussain"
+            }
+          ]
+        },
+        "object_id": "zaryab",
+        "party_id": "AAP_Wheat_Bunch"
+      },
+      {
+        "name": {
+          "text": [
+            {
+              "language": "en",
+              "value": "kamran hussain"
+            }
+          ]
+        },
+        "object_id": "kamran",
+        "party_id": "ALPP_Hut"
+      },
+      {
+        "name": {
+          "text": [
+            {
+              "language": "en",
+              "value": "ali hussain"
+            }
+          ]
+        },
+        "object_id": "ali",
+        "party_id": "APMMP_Giraffe"
+      }
+    ],
+    "contact_information": {
+      "address_line": ["gali no", "g8"],
+      "email": [
+        {
+          "annotation": "press",
+          "value": "inquiries@pec.state.gov"
+        },
+        {
+          "annotation": "federal",
+          "value": "commissioner@pec.state.gov"
+        }
+      ],
+      "name": "Pakistan Election Commission",
+      "phone": [
+        {
+          "annotation": "domestic",
+          "value": "0800-78601"
+        },
+        {
+          "annotation": "international",
+          "value": "+1-0800-78601"
+        }
+      ]
+    },
+    "contests": [
+      {
+        "ballot_selections": [
+          {
+            "candidate_id": "usman",
+            "object_id": "usman-selection",
+            "sequence_order": 0
+          },
+          {
+            "candidate_id": "salman",
+            "object_id": "salman-selection",
+            "sequence_order": 1
+          },
+          {
+            "candidate_id": "danyal",
+            "object_id": "danyal-selection",
+            "sequence_order": 2
+          },
+          {
+            "candidate_id": "khuram",
+            "object_id": "khuram-selection",
+            "sequence_order": 3
+          }
+        ],
+        "ballot_subtitle": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Please choose up to two candidates"
+            },
+            {
+              "language": "es",
+              "value": "Uno"
+            }
+          ]
+        },
+        "ballot_title": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Justice of the Islamabad"
+            },
+            {
+              "language": "es",
+              "value": "Juez de la corte suprema"
+            }
+          ]
+        },
+        "electoral_district_id": "NA-53",
+        "name": "Justice of the Supreme Court",
+        "number_elected": 1,
+        "object_id": "NA-53-contest",
+        "sequence_order": 0,
+        "vote_variation": "n_of_m",
+        "votes_allowed": 1
+      },
+      {
+        "ballot_selections": [
+          {
+            "candidate_id": "khayam",
+            "object_id": "khayam-selection",
+            "sequence_order": 0
+          },
+          {
+            "candidate_id": "zaryab",
+            "object_id": "zaryab-selection",
+            "sequence_order": 1
+          },
+          {
+            "candidate_id": "kamran",
+            "object_id": "kamran-selection",
+            "sequence_order": 2
+          },
+          {
+            "candidate_id": "ali",
+            "object_id": "ali-selection",
+            "sequence_order": 3
+          }
+        ],
+        "ballot_subtitle": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Please choose up to two candidates"
+            },
+            {
+              "language": "es",
+              "value": "Uno"
+            }
+          ]
+        },
+        "ballot_title": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Justice of the Islamabad"
+            },
+            {
+              "language": "es",
+              "value": "Juez de la corte suprema"
+            }
+          ]
+        },
+        "electoral_district_id": "NA-53",
+        "name": "Justice of the Supreme Court",
+        "number_elected": 1,
+        "object_id": "NA-54-contest",
+        "sequence_order": 1,
+        "vote_variation": "n_of_m",
+        "votes_allowed": 1
+      },
+      {
+        "ballot_selections": [
+          {
+            "candidate_id": "khayam",
+            "object_id": "khayam-selection",
+            "sequence_order": 0
+          },
+          {
+            "candidate_id": "zaryab",
+            "object_id": "zaryab-selection",
+            "sequence_order": 1
+          },
+          {
+            "candidate_id": "kamran",
+            "object_id": "kamran-selection",
+            "sequence_order": 2
+          },
+          {
+            "candidate_id": "ali",
+            "object_id": "ali-selection",
+            "sequence_order": 3
+          }
+        ],
+        "ballot_subtitle": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Please choose up to two candidates"
+            },
+            {
+              "language": "es",
+              "value": "Uno"
+            }
+          ]
+        },
+        "ballot_title": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Justice of the Islamabad"
+            },
+            {
+              "language": "es",
+              "value": "Juez de la corte suprema"
+            }
+          ]
+        },
+        "electoral_district_id": "NA-53",
+        "name": "Justice of the Supreme Court",
+        "number_elected": 1,
+        "object_id": "PB-1-contest",
+        "sequence_order": 2,
+        "vote_variation": "n_of_m",
+        "votes_allowed": 1
+      },
+      {
+        "ballot_selections": [
+          {
+            "candidate_id": "khayam",
+            "object_id": "khayam-selection",
+            "sequence_order": 0
+          },
+          {
+            "candidate_id": "zaryab",
+            "object_id": "zaryab-selection",
+            "sequence_order": 1
+          },
+          {
+            "candidate_id": "kamran",
+            "object_id": "kamran-selection",
+            "sequence_order": 2
+          },
+          {
+            "candidate_id": "ali",
+            "object_id": "ali-selection",
+            "sequence_order": 3
+          }
+        ],
+        "ballot_subtitle": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Please choose up to two candidates"
+            },
+            {
+              "language": "es",
+              "value": "Uno"
+            }
+          ]
+        },
+        "ballot_title": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Justice of the Islamabad"
+            },
+            {
+              "language": "es",
+              "value": "Juez de la corte suprema"
+            }
+          ]
+        },
+        "electoral_district_id": "NA-53",
+        "name": "Justice of the Supreme Court",
+        "number_elected": 1,
+        "object_id": "PB-2-contest",
+        "sequence_order": 3,
+        "vote_variation": "n_of_m",
+        "votes_allowed": 1
+      },
+      {
+        "ballot_selections": [
+          {
+            "candidate_id": "khayam",
+            "object_id": "khayam-selection",
+            "sequence_order": 0
+          },
+          {
+            "candidate_id": "zaryab",
+            "object_id": "zaryab-selection",
+            "sequence_order": 1
+          },
+          {
+            "candidate_id": "kamran",
+            "object_id": "kamran-selection",
+            "sequence_order": 2
+          },
+          {
+            "candidate_id": "ali",
+            "object_id": "ali-selection",
+            "sequence_order": 3
+          }
+        ],
+        "ballot_subtitle": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Please choose up to two candidates"
+            },
+            {
+              "language": "es",
+              "value": "Uno"
+            }
+          ]
+        },
+        "ballot_title": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Justice of the Islamabad"
+            },
+            {
+              "language": "es",
+              "value": "Juez de la corte suprema"
+            }
+          ]
+        },
+        "electoral_district_id": "NA-53",
+        "name": "Justice of the Supreme Court",
+        "number_elected": 1,
+        "object_id": "PB-3-contest",
+        "sequence_order": 4,
+        "vote_variation": "n_of_m",
+        "votes_allowed": 1
+      },
+      {
+        "ballot_selections": [
+          {
+            "candidate_id": "khayam",
+            "object_id": "khayam-selection",
+            "sequence_order": 0
+          },
+          {
+            "candidate_id": "zaryab",
+            "object_id": "zaryab-selection",
+            "sequence_order": 1
+          },
+          {
+            "candidate_id": "kamran",
+            "object_id": "kamran-selection",
+            "sequence_order": 2
+          },
+          {
+            "candidate_id": "ali",
+            "object_id": "ali-selection",
+            "sequence_order": 3
+          }
+        ],
+        "ballot_subtitle": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Please choose up to two candidates"
+            },
+            {
+              "language": "es",
+              "value": "Uno"
+            }
+          ]
+        },
+        "ballot_title": {
+          "text": [
+            {
+              "language": "en",
+              "value": "Justice of the Islamabad"
+            },
+            {
+              "language": "es",
+              "value": "Juez de la corte suprema"
+            }
+          ]
+        },
+        "electoral_district_id": "NA-53",
+        "name": "Justice of the Supreme Court",
+        "number_elected": 1,
+        "object_id": "PB-4-contest",
+        "sequence_order": 5,
+        "vote_variation": "n_of_m",
+        "votes_allowed": 1
+      }
+    ],
+    "election_scope_id": "pakistan-election",
+    "end_date": "2021-12-01T20:00:00-05:00",
+    "geopolitical_units": [
+      {
+        "contact_information": {
+          "address_line": [
+            "Killa Saifullah-cum-Zhob-cum-Sherani",
+            "Balochistan"
+          ],
+          "email": [
+            {
+              "annotation": "inquiries",
+              "value": "Balochistan@na53.state.gov"
+            }
+          ],
+          "name": "NA-257clerk",
+          "phone": [
+            {
+              "annotation": "domestic",
+              "value": "0800-78601"
+            }
+          ]
+        },
+        "name": "Killa Saifullah-cum-Zhob-cum-Sherani",
+        "object_id": "NA-53",
+        "type": "ward"
+      }
+    ],
+    "name": {
+      "text": [
+        {
+          "language": "en",
+          "value": "Islamabad Election"
+        },
+        {
+          "language": "es",
+          "value": "Primaria de primavera del condado de Jefferson"
+        }
+      ]
+    },
+    "parties": [
+      {
+        "abbreviation": "PTI",
+        "object_id": "PTI_Bat",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": {
+          "text": [{ "value": "Pakistan Tehreek-e-Insaf", "language": "en" }]
+        }
+      },
+      {
+        "abbreviation": "PTI",
+        "object_id": "PTI_Scissors",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": {
+          "text": [{ "value": "Pakistan Tehreek-e-Insaniat", "language": "en" }]
+        }
+      },
+      {
+        "abbreviation": "PTIG",
+        "object_id": "PTIG_Racket",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": {
+          "text": [
+            { "value": "Pakistan Tehreek-e-Insaf-Gulalai", "language": "en" }
+          ]
+        }
+      },
+      {
+        "abbreviation": "PTIN",
+        "object_id": "PTIN_Batsman",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": {
+          "text": [
+            { "value": "Pakistan Tehreek-e-Insaf (Nazriati)", "language": "en" }
+          ]
+        }
+      },
+      {
+        "abbreviation": "TJP",
+        "object_id": "TJP_Laptop",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": {
+          "text": [{ "value": "Tehrik Jawanan Pakistan", "language": "en" }]
+        }
+      },
+      {
+        "abbreviation": "AATP",
+        "object_id": "AATP_Mug",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": {
+          "text": [{ "value": "Aam Admi Tehreek Pakistan", "language": "en" }]
+        }
+      },
+      {
+        "abbreviation": "AAP",
+        "object_id": "AAP_Wheat_Bunch",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": { "text": [{ "value": "Aam Awam Party", "language": "en" }] }
+      },
+      {
+        "abbreviation": "ALPP",
+        "object_id": "ALPP_Hut",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": {
+          "text": [{ "value": "Aam Log Party Pakistan", "language": "en" }]
+        }
+      },
+      {
+        "abbreviation": "APMMP",
+        "object_id": "APMMP_Giraffe",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": {
+          "text": [
+            {
+              "value": "All Pakistan Minority Movement Pakistan",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    ],
+    "spec_version": "v0.95",
+    "start_date": "2021-11-01T08:00:00-05:00",
+    "type": "general"
+  }
+}

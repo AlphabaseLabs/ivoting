@@ -1,0 +1,486 @@
+{
+  "manifest": {
+    "spec_version": "v0.95",
+    "geopolitical_units": [
+      {
+        "object_id": "NA-53",
+        "name": "NA-53 Islamabad",
+        "type": "county",
+        "contact_information": {
+          "address_line": ["g7, street#22", "Islamabad"],
+          "name": "NA-53 Islamabad's Clerk",
+          "email": [
+            {
+              "annotation": "inquiries",
+              "value": "inquiries@na53.state.gov"
+            }
+          ],
+          "phone": [
+            {
+              "annotation": "domestic",
+              "value": "0800-78601"
+            }
+          ]
+        }
+      },
+      {
+        "object_id": "NA-54",
+        "name": "NA-54 Islamabad",
+        "type": "township",
+        "contact_information": {
+          "address_line": ["Bharakahu", "Islamabad"],
+          "name": "NA-54 Islambad",
+          "email": [
+            {
+              "annotation": "inquiries",
+              "value": "inquiries@bharakahu.state.gov"
+            }
+          ],
+          "phone": [
+            {
+              "annotation": "domestic",
+              "value": "0800-78601"
+            }
+          ]
+        }
+      },
+      {
+        "object_id": "PB-53",
+        "name": "PB-53 Islamabad",
+        "type": "township",
+        "contact_information": {
+          "address_line": ["Islamabad", "Islamabad 999999"],
+          "name": "PB-53 Islamabad",
+          "email": [
+            {
+              "annotation": "inquiries",
+              "value": "inquiries@pb.state.gov"
+            }
+          ],
+          "phone": [
+            {
+              "annotation": "domestic",
+              "value": "0800-78601"
+            }
+          ]
+        }
+      },
+      {
+        "object_id": "PB-54",
+        "name": "PB-54 Islamabad",
+        "type": "school",
+        "contact_information": {
+          "address_line": ["near police station,", "Islamabad"],
+          "name": "PB-54 Islamabad",
+          "email": [
+            {
+              "annotation": "inquiries",
+              "value": "inquiries@pb54.state.gov"
+            }
+          ],
+          "phone": [
+            {
+              "annotation": "domestic",
+              "value": "0800-78601"
+            }
+          ]
+        }
+      }
+    ],
+    "parties": [
+      {
+        "object_id": "PTI",
+        "abbreviation": "PTI",
+        "color": "AAAAAA",
+        "logo_uri": "http://some/path/to/whig.svg",
+        "name": {
+          "text": [
+            {
+              "value": "Pakistan Tahreek-e-Insaaf",
+              "language": "en"
+            }
+          ]
+        }
+      },
+      {
+        "object_id": "MQM",
+        "abbreviation": "MQM",
+        "color": "CCCCCC",
+        "logo_uri": "http://some/path/to/federalist.svg",
+        "name": {
+          "text": [
+            {
+              "value": "Muhajir Qoumi Movement",
+              "language": "en"
+            }
+          ]
+        }
+      },
+      {
+        "object_id": "PPP",
+        "abbreviation": "PPP",
+        "color": "EEEEEE",
+        "logo_uri": "http://some/path/to/democratic-repulbican.svg",
+        "name": {
+          "text": [
+            {
+              "value": "Pakistan People Party",
+              "language": "en"
+            }
+          ]
+        }
+      }
+    ],
+    "candidates": [
+      {
+        "object_id": "usman",
+        "name": {
+          "text": [
+            {
+              "value": "Usman Aftab",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "PTI"
+      },
+      {
+        "object_id": "salman",
+        "name": {
+          "text": [
+            {
+              "value": "Salaman Ahmed",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "PPP"
+      },
+      {
+        "object_id": "danyal",
+        "name": {
+          "text": [
+            {
+              "value": "Danyal Ahmed",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "MQM"
+      },
+      {
+        "object_id": "noman",
+        "name": {
+          "text": [
+            {
+              "value": "noman",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "PPP"
+      },
+      {
+        "object_id": "khuram",
+        "name": {
+          "text": [
+            {
+              "value": "khuram",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "PTI"
+      },
+      {
+        "object_id": "niaz",
+        "name": {
+          "text": [
+            {
+              "value": "niaz",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "PTI"
+      },
+      {
+        "object_id": "kamal",
+        "name": {
+          "text": [
+            {
+              "value": "kamal",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "PPP"
+      },
+      {
+        "object_id": "ayesha",
+        "name": {
+          "text": [
+            {
+              "value": "ayesha",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "MQM"
+      },
+      {
+        "object_id": "nazia",
+        "name": {
+          "text": [
+            {
+              "value": "nazia",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "MQM"
+      },
+      {
+        "object_id": "zaryab",
+        "name": {
+          "text": [
+            {
+              "value": "zaryab",
+              "language": "en"
+            }
+          ]
+        },
+        "party_id": "zaryab"
+      }
+    ],
+    "contests": [
+      {
+        "@type": "CandidateContest",
+        "object_id": "NA-53-contest",
+        "sequence_order": 0,
+        "ballot_selections": [
+          {
+            "object_id": "zaryab-selection",
+            "sequence_order": 0,
+            "candidate_id": "zaryab"
+          },
+          {
+            "object_id": "salman-selection",
+            "sequence_order": 1,
+            "candidate_id": "salman"
+          },
+          {
+            "object_id": "danyal-selection",
+            "sequence_order": 2,
+            "candidate_id": "danyal"
+          },
+          {
+            "object_id": "khuram-selection",
+            "sequence_order": 3,
+            "candidate_id": "khuram"
+          }
+        ],
+        "ballot_title": {
+          "text": [
+            {
+              "value": "Justice of the Islamabad",
+              "language": "en"
+            },
+            {
+              "value": "Juez de la corte suprema",
+              "language": "es"
+            }
+          ]
+        },
+        "ballot_subtitle": {
+          "text": [
+            {
+              "value": "Please choose up to two candidates",
+              "language": "en"
+            },
+            {
+              "value": "Uno",
+              "language": "es"
+            }
+          ]
+        },
+        "vote_variation": "n_of_m",
+        "electoral_district_id": "NA-53",
+        "name": "Justice of the Supreme Court",
+        "primary_party_ids": ["PPP"],
+        "number_elected": 2,
+        "votes_allowed": 2
+      },
+      {
+        "@type": "ReferendumContest",
+        "object_id": "NA-54-contest",
+        "sequence_order": 1,
+        "ballot_selections": [
+          {
+            "object_id": "usman-selection",
+            "sequence_order": 0,
+            "candidate_id": "usman"
+          },
+          {
+            "object_id": "salman-selection",
+            "sequence_order": 1,
+            "candidate_id": "salman"
+          },
+          {
+            "object_id": "danyal-selection",
+            "sequence_order": 2,
+            "candidate_id": "danyal"
+          },
+          {
+            "object_id": "khuram-selection",
+            "sequence_order": 3,
+            "candidate_id": "khuram"
+          }
+        ],
+        "ballot_title": {
+          "text": [
+            {
+              "value": "Should pineapple be banned on pizza?",
+              "language": "en"
+            },
+            {
+              "value": "¿Debería prohibirse la piña en la pizza?",
+              "language": "es"
+            }
+          ]
+        },
+        "ballot_subtitle": {
+          "text": [
+            {
+              "value": "The township considers this issue to be very important",
+              "language": "en"
+            },
+            {
+              "value": "El municipio considera que esta cuestión es muy importante",
+              "language": "es"
+            }
+          ]
+        },
+        "vote_variation": "one_of_m",
+        "electoral_district_id": "NA-54",
+        "name": "The Pineapple Question",
+        "number_elected": 1,
+        "votes_allowed": 1
+      },
+      {
+        "@type": "ReferendumContest",
+        "object_id": "PB-54-contest",
+        "sequence_order": 2,
+        "ballot_selections": [
+          {
+            "object_id": "niaz-selection",
+            "sequence_order": 0,
+            "candidate_id": "niaz"
+          },
+          {
+            "object_id": "kamal-selection",
+            "sequence_order": 1,
+            "candidate_id": "kamal"
+          },
+          {
+            "object_id": "ayesha-selection",
+            "sequence_order": 2,
+            "candidate_id": "ayesha"
+          },
+          {
+            "object_id": "nazia-selection",
+            "sequence_order": 3,
+            "candidate_id": "nazia"
+          }
+        ],
+        "ballot_title": {
+          "text": [
+            {
+              "value": "Should pineapple be banned on pizza?",
+              "language": "en"
+            },
+            {
+              "value": "¿Debería prohibirse la piña en la pizza?",
+              "language": "es"
+            }
+          ]
+        },
+        "ballot_subtitle": {
+          "text": [
+            {
+              "value": "The township considers this issue to be very important",
+              "language": "en"
+            },
+            {
+              "value": "El municipio considera que esta cuestión es muy importante",
+              "language": "es"
+            }
+          ]
+        },
+        "vote_variation": "one_of_m",
+        "electoral_district_id": "PB-54",
+        "name": "PB 54 ISLAMABAD",
+        "number_elected": 1,
+        "votes_allowed": 1
+      }
+    ],
+    "ballot_styles": [
+      {
+        "object_id": "NA",
+        "geopolitical_unit_ids": ["NA-53", "NA-54"]
+      },
+      {
+        "object_id": "PB",
+        "geopolitical_unit_ids": ["PB-53", "PB-54"]
+      },
+      {
+        "object_id": "ONLY_PB-53",
+        "geopolitical_unit_ids": ["PB-53"]
+      },
+      {
+        "object_id": "ONLY_PB-54",
+        "geopolitical_unit_ids": ["PB-54"]
+      }
+    ],
+    "name": {
+      "text": [
+        {
+          "value": "Islamabad Election",
+          "language": "en"
+        },
+        {
+          "value": "Primaria de primavera del condado de Jefferson",
+          "language": "es"
+        }
+      ]
+    },
+    "contact_information": {
+      "address_line": ["gali no", "g8"],
+      "name": "Pakistan Election Commission",
+      "email": [
+        {
+          "annotation": "press",
+          "value": "inquiries@pec.state.gov"
+        },
+        {
+          "annotation": "federal",
+          "value": "commissioner@pec.state.gov"
+        }
+      ],
+      "phone": [
+        {
+          "annotation": "domestic",
+          "value": "0800-78601"
+        },
+        {
+          "annotation": "international",
+          "value": "+1-0800-78601"
+        }
+      ]
+    },
+    "start_date": "2021-11-01T08:00:00-05:00",
+    "end_date": "2021-12-01T20:00:00-05:00",
+    "election_scope_id": "test-election",
+    "type": "primary"
+  }
+}
