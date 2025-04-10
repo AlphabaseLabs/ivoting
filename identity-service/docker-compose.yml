@@ -1,0 +1,37 @@
+version: "3"
+services:
+  identity_portal:
+    container_name: identity_portal
+    image: "block360/identity_portal"
+    ports:
+     - 65530:65530
+    env_file:
+      - .env # configure postgres
+    volumes:
+      - identity_portal_logs:/usr/identity_portal/logs
+    networks:
+      - identity_portal
+    restart: unless-stopped
+
+  identity_portal_db:
+    container_name: identity_portal_db
+    image: "postgres:13"
+    ports:
+     - 5433:5432
+    env_file:
+      - postgress.env # configure postgres
+    volumes:
+      - identity_portal_db:/var/lib/postgresql/data/ # persist data even if container shuts downvolumes:
+    networks:
+      - identity_portal
+    restart: unless-stopped
+
+volumes:
+  identity_portal_logs:
+    driver: local
+  identity_portal_db:
+    driver: local
+
+networks:
+  identity_portal:
+

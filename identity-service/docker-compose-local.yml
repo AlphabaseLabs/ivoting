@@ -1,0 +1,15 @@
+version: "3"
+services:
+  identity_portal_db:
+    container_name: identity_portal_db
+    image: "postgres:13"
+    env_file:
+      - postgress.env # configure postgres
+    volumes:
+      - identity_portal_db:/var/lib/postgresql/data/ # persist data even if container shuts downvolumes:
+    network_mode: host
+    restart: unless-stopped
+
+volumes:
+  identity_portal_db:
+    driver: local
